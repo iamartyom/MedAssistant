@@ -150,7 +150,7 @@ export default function App() {
             {uploading ? (
               <ActivityIndicator color="#fff" />
             ) : (
-              <Text style={styles.uploadButtonText}>Upload</Text>
+              <Text style={styles.uploadButtonText}>Add</Text>
             )}
           </Pressable>
         </View>

@@ -24,7 +24,7 @@ export function DocumentList({ documents, loading, onOpen, onDelete }: Props) {
       <View style={styles.centered}>
         <Text style={styles.emptyTitle}>No records yet</Text>
         <Text style={styles.emptyHint}>
-          Tap &quot;Upload&quot; to add lab results, scans, or doctor&apos;s reports.
+          Tap &quot;Add&quot; to add lab results, scans, or doctor&apos;s reports.
         </Text>
       </View>
     );
